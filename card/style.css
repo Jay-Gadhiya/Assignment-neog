@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* || utilities */
+
+.list {
+    list-style: none;
+}
+
+.container {
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+
+
+/******************************* || card 1 *************************************************/
+
+/* ||upper part */
+.card{
+   width: 21rem;
+   height: 10.2rem;
+   margin: 2rem;
+   background-color: rgb(255, 254, 254);
+   border-radius: 4px;
+   border: 1px solid white;
+   box-shadow: 1px 1px 2px 1px #c2bfbf;
+}
+
+.card-content{
+    display: flex;
+}
+
+
+img {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+/* || paragraph */
+
+.card-para {
+    padding: 1.5rem;
+    line-height: 1.5rem;
+}
+
+p:nth-child(1) {
+    font-size: 1.25rem;
+    font-weight: 500;
+
+}
+
+.small-text{
+    font-size: .9rem;
+    color: rgb(133, 124, 124);
+    font-weight: 700;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* ||lower part */
+
+.card-list ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.card-list ul li{
+    cursor: pointer;
+}
+
+.text {
+    font-size: 1rem;
+    color: blueviolet;
+    font-weight: 600;
+    font-family: Roboto,sans-serif
+    
+}
+.icon {
+ color: gray;
+ font-size: 1.2rem;
+
+}
+
+/******************************* || card 2 *************************************************/
+
+.card-2 {
+    /* background-color: gray; */
+    width: 21.97rem;
+    height: 24rem;
+   box-shadow: 0 8px 6px -2px rgb(150, 148, 148);
+
+}
+
+.card2-img {
+  object-fit: cover;
+  width: 21.97rem;
+}
+
+.card2-component {
+    display: flex;
+    flex-direction: column;
+}
+
+.card2-text {
+    margin-top: 1rem;
+    line-height: 1.2rem;
+}
+
+
+/******************************* || card 3 *************************************************/
+
+.card-3 {
+    height: 14rem;
+}
+
+
+/******************************* || card 4 *************************************************/
+
+.shoping-card {
+    display: flex;
+    flex-direction: column;
+    width: 12rem;
+    height: 24rem;
+    width: auto;
+    margin: 2rem;
+    
+}
+
+.card4-img {
+    width: auto;
+    height: 13rem;
+}
+
+.heart {
+    margin-left: auto;
+}
+
+.pensil-name {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 550;
+
+}
+
+.text-box {
+    flex-direction: column;
+    line-height: 1.5rem;
+}
+
+.price {
+    font-weight: 550;
+}
+
+.price span {
+    font-size: .8rem;
+    color: lightcoral;
+}
+
+.rating {
+    font-size: .9rem;
+}
+
+.rating i {
+    color: orange;
+}
+
+.card4-btn {
+    border-style: none;
+    padding: .5rem;
+    font-size: 1.1rem;
+    border-radius: 4px;
+    border: 1px solid blue;
+    background-color: transparent;
+    cursor: pointer;
+    margin-top: 1rem;
+    color: blue;
+}
