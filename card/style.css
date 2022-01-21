@@ -14,9 +14,12 @@
 .container {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center; 
+}
+
+h2 {
+    margin: 1rem 2.1rem;
+    margin-top: 2rem;
+    margin-bottom: .6rem;
 }
 
 
@@ -95,7 +98,7 @@ p:nth-child(1) {
 .card-2 {
     /* background-color: gray; */
     width: 21.97rem;
-    height: 24rem;
+    height: 27.2rem;
    box-shadow: 0 8px 6px -2px rgb(150, 148, 148);
 
 }
@@ -123,7 +126,81 @@ p:nth-child(1) {
 }
 
 
+
 /******************************* || card 4 *************************************************/
+
+
+.card-4 {
+    height: 23rem;
+}
+.para-img-container {
+    position: relative;
+}
+
+.para-containers {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    color: white;
+    font-weight: bold;
+}
+
+.position-small-text {
+    color: white;
+}
+
+#card4-text-style {
+    font-size: 1rem;
+    color: rgb(133, 124, 124);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 1rem;
+}
+
+
+/******************************* || card 5 *************************************************/
+.card-5 {
+    height: 27.5rem;
+    box-shadow: 1px 1px 2px 2px #c2bfbf;
+
+}
+.card5-header {
+    padding: 1rem;
+    line-height: 1.5rem;
+}
+
+
+.card5-header p {
+    font-weight: 600;
+}
+
+#card5-text-style {
+    font-size: 1rem;
+    color: rgb(133, 124, 124);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 1rem;
+}
+
+/******************************* || card 6 *************************************************/
+
+#only-btn-ul {
+    justify-content: flex-start;
+}
+
+.only-btn {
+    margin-left: 1.7rem;
+}
+
+/******************************* || card 7 *************************************************/
+
+#only-icon-ul {
+    justify-content:flex-end;
+}
+
+.only-icon {
+    margin-left: 1.7rem;
+}
+
+/******************************* || shoping card  *************************************************/
 
 .shoping-card {
     display: flex;
@@ -135,7 +212,7 @@ p:nth-child(1) {
     
 }
 
-.card4-img {
+.card-shoping-img {
     width: auto;
     height: 13rem;
 }
@@ -173,7 +250,7 @@ p:nth-child(1) {
     color: orange;
 }
 
-.card4-btn {
+.card-shoping-btn {
     border-style: none;
     padding: .5rem;
     font-size: 1.1rem;
@@ -183,4 +260,9 @@ p:nth-child(1) {
     cursor: pointer;
     margin-top: 1rem;
     color: blue;
+}
+
+.card-shoping-btn:hover {
+    background-color: blue;
+    color: white;
 }
